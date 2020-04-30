@@ -1,0 +1,50 @@
+.team-menu__photo--hover:hover .society__item{
+	opacity: 1;
+	-webkit-transition-duration: 200ms;
+			 -o-transition-duration: 200ms;
+					transition-duration: 200ms;
+	-webkit-transition-timing-function: linear;
+			 -o-transition-timing-function: linear;
+					transition-timing-function: linear;
+	
+	}
+	.society__icon--hover:hover{
+		background-color: #f38181;
+		fill: #ffffff;
+		-webkit-transition-duration: 200ms;
+				 -o-transition-duration: 200ms;
+						transition-duration: 200ms;
+		-webkit-transition-timing-function:linear;
+				 -o-transition-timing-function:linear;
+						transition-timing-function:linear;
+	}
+	.society{
+		list-style: none;
+		margin: 0 auto;
+		padding: 0;
+		border: none;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	
+	
+	.society__item:not(:last-child){
+		border-right: 1px solid #f38181;
+	}
+	
+	.society__icon{
+		width: 56px;
+		height: 56px;
+		border: none;
+		margin: 0;
+		padding: 0;
+		cursor: pointer;
+		fill: #f38181;
+		background-color: #fce38a;
+		
+	}
+	.society__item{
+	opacity: 0;
+	height: 56px;
+	}
