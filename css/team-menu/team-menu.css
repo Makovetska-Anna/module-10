@@ -26,7 +26,10 @@
 	-webkit-transition-timing-function: linear;
 	     -o-transition-timing-function: linear;
 					transition-timing-function: linear;
-          transform: translate(-10px, -10px);
+          -webkit-transform: translate(-10px, -10px);
+              -ms-transform: translate(-10px, -10px);
+                  transform: translate(-10px, -10px);
+
 
 }
 
@@ -59,7 +62,10 @@
 	-webkit-transition-timing-function:linear;
 	     -o-transition-timing-function:linear;
 					transition-timing-function:linear;
-					transform: translate(-10px, -10px);			
+					-webkit-transform: translate(-10px, -10px);
+              -ms-transform: translate(-10px, -10px);
+                  transform: translate(-10px, -10px);
+			
 				
 }
 
