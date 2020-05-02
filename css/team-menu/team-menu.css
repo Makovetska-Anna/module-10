@@ -25,7 +25,8 @@
 	        transition-duration: 200ms;
 	-webkit-transition-timing-function: linear;
 	     -o-transition-timing-function: linear;
-	        transition-timing-function: linear;
+					transition-timing-function: linear;
+          transform: translate(-10px, -10px);
 
 }
 
@@ -57,7 +58,9 @@
 	        transition-duration: 200ms;
 	-webkit-transition-timing-function:linear;
 	     -o-transition-timing-function:linear;
-	        transition-timing-function:linear;
+					transition-timing-function:linear;
+					transform: translate(-10px, -10px);			
+				
 }
 
 .team-menu__photo--hover:hover .society__item{

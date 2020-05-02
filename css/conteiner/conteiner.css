@@ -25,3 +25,48 @@ white-space: nowrap;
 clip: rect(0 0 0 0);
 overflow: hidden;
 }
+.conteiner__supratitle{
+	font-family: 'Kaushan Script';
+  font-style: normal;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+	font-size: 72px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+	border: none;
+	margin-top: 180px;
+}
+
+.conteiner__title{
+	width: 845px;
+	font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	font-size: 150px;
+	line-height: 1;
+	margin: 0 auto;
+	padding: 0;
+	border: none;
+	margin-top: 40px;
+}
+.conteiner__btn{
+	cursor: pointer;
+	display: block;
+	width: 160px;
+	height: 40px;
+	background-color: transparent;
+	margin: 0 auto;
+	padding: 0;
+	border: 3px solid #ffffff;
+	color: #ffffff;
+  font-family: 'Montserrat';
+  font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: 125px;
+}
